@@ -1,0 +1,5 @@
+const text = {
+  about: 'Na Celebrate, acreditamos que cada momento merece ser celebrado de maneira única e especial. Nossa missão é transformar suas ideias em experiências inesquecíveis, oferecendo uma variedade de cestas comemorativas e serviços personalizados para todas as ocasiões. Desde jantares românticos e festas surpresas até pedidos de namoro e despedidas de solteiro, aventuras ao ar livre, estamos aqui para tornar seus sonhos realidade. Nossos produtos são cuidadosamente elaborados, com atenção aos detalhes e foco na qualidade, para que você possa surpreender quem ama com toques personalizados e memoráveis. Cada cesta e experiência é pensada para criar memórias que durarão para sempre. Seja um piquenique no parque, uma noite de cinema em casa ou uma festa do pijama, nós temos tudo o que você precisa para fazer cada momento brilhar. Venha celebrar com a gente e descubra como podemos ajudar a transformar suas ocasiões especiais em lembranças que tocarão o coração.'
+};
+
+export default text;
