@@ -6,6 +6,7 @@ import ContactUs from '../components/ContactUs';
 import NavBar from '../components/NavBar';
 import Categories from '../components/Categories';
 import About from '../components/About';
+import HomeImages from '../components/HomeImages';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <header className="Home-header">
         <HomeIcon />
         <HomeTitle />
+        <HomeImages />
         <ContactUs />
         <NavBar />
         <Categories />
