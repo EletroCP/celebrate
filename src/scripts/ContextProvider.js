@@ -5,14 +5,11 @@ export const Context = createContext();
 
 function ContextProvider({ children }) {
 
-  const [hello, setHello] = useState('');
+  const [hideBurger, setHideBurger] = useState(true);
 
-  useEffect(() => {
-    setHello('Hello World!')
-
-  }, [])
   const value = {
-    hello
+    hideBurger,
+    setHideBurger
   };
 
   return (
