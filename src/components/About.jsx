@@ -3,8 +3,8 @@ import text from "../scripts/texts.js"
 
 const About = () => {
   return (
-    <div>
-      <p>
+    <div id="about-container">
+      <p id="about-text">
         { text.about }
       </p>
     </div>
