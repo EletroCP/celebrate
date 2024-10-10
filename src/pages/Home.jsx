@@ -14,12 +14,12 @@ function Home() {
       <header className="Home-header">
         <HomeIcon />
         <HomeTitle />
-        <HomeImages />
         <ContactUs />
+        <HomeImages />
+      </header>
         <NavBar />
         <Categories />
         <About />
-      </header>
     </div>
   );
 }
