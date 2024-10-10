@@ -3,7 +3,7 @@ import homeImages from "../res/homeImages.svg"
 const HomeImages = () => {
 
   return (
-    <div  id="home-image-container">
+    <div  id="home-image-container" className="grid-image-container">
       <img src={homeImages} alt="Icones comemorativos" id="home-image+"/>
     </div>
   );

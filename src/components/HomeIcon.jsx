@@ -5,7 +5,7 @@ import { GiSevenPointedStar } from "react-icons/gi";
 const HomeIcon = () => {
   const navigate = useNavigate();
   return(
-    <div  id="home-icon-container">
+    <div  id="home-icon-container" className="grid-icon-container">
       <GiSevenPointedStar id="home-icon-image" alt="Icone" onClick={() => navigate('/')}/>
       <p id="home-icon">Celebrate</p>
     </div>

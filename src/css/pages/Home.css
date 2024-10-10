@@ -1,38 +1,33 @@
-.Home {
-  text-align: center;
-}
-
-.Home-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .Home-logo {
-    animation: Home-logo-spin infinite 20s linear;
-  }
-}
+.grid-icon-container { grid-area: home; }
+.grid-title-container { grid-area: title; }
+.grid-image-container { grid-area: image; }
+.grid-contact-containe { grid-area: contact; }
 
 .Home-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-areas: 
+  'home home home image'
+  'title title title image'
+  'contact contact contact image'
+  ;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.Home-link {
-  color: #61dafb;
+#home-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
-@keyframes Home-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#home-icon-image {
+  color: #553566;
+
+}
+
+.Home {
+  text-align: center;
 }
