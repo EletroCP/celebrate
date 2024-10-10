@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { createContext } from 'react';
 import PropTypes from 'prop-types';
 export const Context = createContext();
